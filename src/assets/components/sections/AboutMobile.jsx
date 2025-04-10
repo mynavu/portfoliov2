@@ -166,10 +166,10 @@ export const AboutMobile = ({ image, onImageChange1, onImageChange2, currentData
             </div>
 
         </div>
+        <h3 className="titleFont blueGlow center">PROJECTS&nbsp;
+            <i className="bi bi-folder-fill"></i>
+        </h3>
         <div className="projectsContainer">
-            <h3 className="titleFont blueGlow center">PROJECTS&nbsp;
-                <i className="bi bi-folder-fill"></i>
-            </h3>
                 <Slider {...settings}>
                     {currentData.map(data => (
                         <div className="card">
