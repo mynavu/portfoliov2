@@ -619,6 +619,10 @@ i {
     gap: 20px;
     margin-top: 40px;
     max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .quests {
@@ -638,7 +642,7 @@ i {
   }
 
   .skillsContainer, .achievementsContainer {
-    max-width: 400px;
+    max-width: 350px;
   }
 
   .achievementsContainer {
@@ -671,7 +675,7 @@ i {
 
 
   .footer {
-    width: 400px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     justify-self: center;
