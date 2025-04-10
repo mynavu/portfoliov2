@@ -23,7 +23,7 @@ export const About = ({ image, onImageChange1, onImageChange2, currentData, onFi
                 </div>
                 <div className="quests">
                     <h3 className="titleFont blueGlow center">QUESTS&nbsp; 
-                        <i class="bi bi-backpack4-fill"></i>
+                        <i className="bi bi-backpack4-fill"></i>
                     </h3>
                     <h4 className="titleFont whiteGlow">CURRENT</h4>
                     <div className="questBar">
@@ -80,15 +80,15 @@ export const About = ({ image, onImageChange1, onImageChange2, currentData, onFi
                 </div>
                 <h4 className="titleFont whiteGlow">CONTACT</h4>
                 <div className="contacts">
-                    <a href="https://www.linkedin.com/in/myna-vu-237091322/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                    <a href="https://github.com/mynavu" target="_blank"><i class="bi bi-github"></i></a>
-                    <a href="mailto:avu13@uclive.ac.nz"><i class="bi bi-envelope-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/myna-vu-237091322/" target="_blank"><i className="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/mynavu" target="_blank"><i className="bi bi-github"></i></a>
+                    <a href="mailto:avu13@uclive.ac.nz"><i className="bi bi-envelope-fill"></i></a>
                 </div>
             </div>
         </div>
         <div className="skillsContainer">
             <h3 className="titleFont blueGlow center">SKILLS&nbsp;
-             <i class="bi bi-stars"></i>
+             <i className="bi bi-stars"></i>
             </h3>
             <div className="fourSkills">
                 <div className="langContainer">
@@ -133,33 +133,33 @@ export const About = ({ image, onImageChange1, onImageChange2, currentData, onFi
         </div>
         <div className="achievementsContainer">
             <h3 className="titleFont blueGlow center">ACHIEVEMENTS UNLOCKED&nbsp;
-            <i class="bi bi-unlock-fill"></i>
+            <i className="bi bi-unlock-fill"></i>
             </h3>
             <div className="achievements">
                 <div className="achievement">
                     <h4 className="achievementName yellowBorder">
-                        <i class="bi bi-trophy-fill"></i>
+                        <i className="bi bi-trophy-fill"></i>
                         &nbsp;Global Nominee
                     </h4>
                     <p className='small'>Chosen as Vietnam's first NASA Space Apps Hackathon nominee</p>
                 </div>
                 <div className="achievement">
                     <h4 className="achievementName greenBorder">
-                        <i class="bi bi-mortarboard-fill"></i>
+                        <i className="bi bi-mortarboard-fill"></i>
                         &nbsp;Grade Farmer
                     </h4>
                     <p className='small'>Obtained a 4.0 GPA in highschool + 2 princpal's list</p>
                 </div>
                 <div className="achievement">
                     <h4 className="achievementName pinkBorder">
-                        <i class="bi bi-cake-fill"></i>
+                        <i className="bi bi-cake-fill"></i>
                         &nbsp;Vanilla Dev
                     </h4>
                     <p className='small'>Rigourously covered vanilla HTML, CSS and JS</p>
                 </div>
                 <div className="achievement">
                     <h4 className="achievementName purpleBorder">
-                        <i class="bi bi-palette-fill"></i>
+                        <i className="bi bi-palette-fill"></i>
                         &nbsp;Design Dabbler
                     </h4>
                     <p className='small'>Skilled in 3D Modelling, UI/UX, Graphic Design, and etc...</p>
@@ -169,7 +169,7 @@ export const About = ({ image, onImageChange1, onImageChange2, currentData, onFi
         </div>
         <div className="projectsContainer">
             <h3 className="titleFont blueGlow center">PROJECTS&nbsp;
-                <i class="bi bi-folder-fill"></i>
+                <i className="bi bi-folder-fill"></i>
             </h3>
                 <Slider {...settings}>
                     {currentData.map(data => (
@@ -178,15 +178,15 @@ export const About = ({ image, onImageChange1, onImageChange2, currentData, onFi
                             <h4 className='titleFont center'>{data.name}</h4>
                             <p className='small center thin'>{data.caption}</p>
                             <div className='projectLinks'>
-                                <a href={data.webUrl} target="_blank"><i class="bi bi-globe"></i></a>
-                                <a href={data.github} target="_blank"><i class="bi bi-github"></i></a>
+                                <a href={data.webUrl} target="_blank"><i className="bi bi-globe"></i></a>
+                                <a href={data.github} target="_blank"><i className="bi bi-github"></i></a>
                             </div>
                         </div>
                     ))}
                 </Slider>
         </div>
         <div className='footer'>
-            <p className='credits'>Made with <i class="bi bi-heart-fill pink"></i> and <i className="fa-brands fa-react cyan"></i></p>
+            <p className='credits'>Made with <i className="bi bi-heart-fill pink"></i> and <i className="fa-brands fa-react cyan"></i></p>
             <h5 className=''>2025 © Myna Vu</h5>
         </div>
 
