@@ -57,7 +57,7 @@ export const About = ({ image, onImageChange1, onImageChange2, currentData, onFi
                     </div>
                 */}
                 </div>
-                <img className="profileImage" src={image}></img>
+                <img className="profileImage" src='/portfoliov2/image1.png'></img>
                 <p className='center'>Rank: First year CS student</p>
                 <p className='center'>Spawn: Vietnam</p>
                 <div className="questBar">
