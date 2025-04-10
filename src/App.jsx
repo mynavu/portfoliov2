@@ -5,7 +5,7 @@ import './App.css'
 import { About } from './assets/components/sections/About'
 import { AboutMobile } from './assets/components/sections/AboutMobile'
 
-const image1 = '../image1.png'
+const image1 = './image1.png'
 const image2 = '/portfoliov2/image2.png'
 
 const projectsData = [
