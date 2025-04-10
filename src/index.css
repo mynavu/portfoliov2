@@ -618,7 +618,7 @@ i {
     align-items: center;
     gap: 20px;
     margin-top: 40px;
-    max-width: 500px;
+    max-width: 400px;
   }
 
   .quests {
@@ -638,7 +638,7 @@ i {
   }
 
   .skillsContainer, .achievementsContainer {
-    max-width: 500px;
+    max-width: 400px;
   }
 
   .achievementsContainer {
@@ -671,7 +671,7 @@ i {
 
 
   .footer {
-    width: 500px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-self: center;
