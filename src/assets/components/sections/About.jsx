@@ -18,7 +18,7 @@ export const About = ({ image, onImageChange1, onImageChange2, currentData, onFi
                     <h1 className="blueGlow title titleFont center">MYN<span className="flicker">A</span> VU</h1>
                     <p className='thin center long'>
                         I am a software developer and an undergrad focusing on Computer Science and Statistics. 
-                        My interests are software engineering, quant development, and data analysis.    
+                        My interests are software engineering, data analysis, and quantitative analysis.    
                     </p>
                 </div>
                 <div className="quests">
